@@ -1,4 +1,4 @@
-#include <Arduino.h>
+
 
 void setup() {
   // put your setup code here, to run once:
@@ -6,8 +6,8 @@ void setup() {
 }
 
 void loop() {// put your main code here, to run repeatedly:
-  on(500);
-  off(500);
+  on(1000);
+  off(1000);
   //on(1000);
   //off(1000);
   //on(2000);
