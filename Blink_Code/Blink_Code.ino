@@ -14,7 +14,7 @@ void loop() {// put your main code here, to run repeatedly:
   //off(2000);
 }
 
-void on(int x) {
+void on(int x) { 
   digitalWrite(LED_BUILTIN, HIGH);   // turn the LED off by making the voltage LOW
   delay(x);      
 }
